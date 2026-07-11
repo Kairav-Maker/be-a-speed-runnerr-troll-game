@@ -19,7 +19,7 @@ function Intro () {
     game.splash("PRO")
     music.stopAllSounds()
 }
-scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile5`, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorOpenNorth, function (sprite, location) {
     info.setScore(info.getTimeElapsed())
     game.setGameOverScoringType(game.ScoringType.LowScore)
     game.gameOver(true)
