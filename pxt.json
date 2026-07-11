@@ -1,5 +1,6 @@
 {
     "name": "Be a speedRunnerr(Troll Game) ",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*",
